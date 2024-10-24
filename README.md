@@ -20,8 +20,9 @@ This WordPress plugin allows you to verify usernames by fetching data from a Goo
 5. Ensure your Google Sheets has proper permissions for access via API.
 
 ## Usage
-1. On the front end, users will see an input field where they can enter a username.
-2. Once a username is entered, the plugin checks the Google Sheets document and returns whether the username is present or not.
+1. Use the shortcode `[username_search]` on any page or post to display the username search field on the frontend.
+2. Users will see an input field where they can enter a username.
+3. Once a username is entered, the plugin checks the Google Sheets document and returns whether the username is present or not.
 
 ## Requirements
 - WordPress version 5.0 or higher.
