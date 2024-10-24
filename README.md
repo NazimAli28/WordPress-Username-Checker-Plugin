@@ -15,7 +15,7 @@ This WordPress plugin allows you to verify usernames by fetching data from a Goo
     ```php
     define('GOOGLE_SHEETS_API_KEY', 'your-API-key-here');
     define('GOOGLE_SHEET_ID', 'your-google-sheet-id-here');
-    define('GOOGLE_SHEET_RANGES', 'your-range-here'); // Example: 'Sheet1!A1:A100'
+    define('GOOGLE_SHEET_RANGES', json_encode(['your-range-here'])); // Example: 'Sheet1!A1:A100'
     ```
 5. Ensure your Google Sheets has proper permissions for access via API.
 
